@@ -1,0 +1,7 @@
+This is an API made of Ruby on Rails
+
+Database used is MySQL
+
+This API is made for the android app FoodKart It can also be used for study purpose, to learn integration of MySQL with Ruby on Rails.
+
+Refer the documentation file for the usage of the API
