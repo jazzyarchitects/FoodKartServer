@@ -50,5 +50,5 @@ test:
 production:
   <<: *default
   database: FoodKart_production
-  username: FoodKart
-  password: <%= ENV['FOODKART_DATABASE_PASSWORD'] %>
+  username: <%= ENV['OPENSHIFT_MYSQL_DB_USERNAME'] %>
+  password: <%= ENV['OPENSHIFT_MYSQL_DB_PASSWORD'] %>

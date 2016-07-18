@@ -36,7 +36,7 @@ class UsersController < ApplicationController
         @success={:success => true, :error => nil}
         render json: @success, status: :ok
       else
-        @success={:success => false, :error => @user.errors}rails
+        @success={:success => false, :error => @user.errors}
         render json: @success, status: :unprocessable_entity
       end
     end
